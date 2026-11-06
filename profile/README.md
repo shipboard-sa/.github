@@ -19,7 +19,7 @@ Every repository is a working piece of a real ship's automation stack. Together 
 
 | Layer | Repo | What it does |
 |:------|:-----|:-------------|
-| **Sense** | [automation-engine](https://github.com/shipboard-sa/automation-engine) | SignalK rules engine — YAML-driven alarm and automation logic, I/O master table, six-layer architecture |
+| **Sense** | [automation-engine](https://github.com/shipboard-sa/automation-engine) | SignalK rules engine — YAML-driven alarm and automation logic, I/O master table, browser-based config editors, audit log viewer, N2K switch bank integration |
 | | [alarm-panel](https://github.com/shipboard-sa/alarm-panel) | Custom 26-channel alarm PCB — NPN LED drivers, backlit labels, mute/test, EasyEDA design files |
 | | [wiring-io](https://github.com/shipboard-sa/wiring-io) | Physical wiring documentation — Modbus I/O, relay pool, DIN rail, commissioning checklists |
 | **Plan & Operate** | [vessel-ops](https://github.com/shipboard-sa/vessel-ops) | Maintenance, inventory, galley, logbook, cockpit display — FastAPI + React + SQLite |
